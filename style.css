@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(35, 37, 43);
+    color: rgb(216, 216, 216);
+    /* introductory paragraph text */
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-body-tertiary {
+    background-color: rgb(35, 37, 43) !important;
+}
+
+.greeting {
+    font-family: 'Playfair Display', serif;
+    color: rgb(172, 148, 129);
+    font-size: 48px;
+    padding-bottom: 2vh;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.introductory-paragraph {
+    padding-left: 8vh;
+    padding-right: 8vh;
+}
+
+.site-links {
+    color: rgb(216, 216, 216);
+    background-color:rgb(35, 37, 43);
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.site-links:hover {
+    background-color: white;
+    color: black;
+}
+
+.dropdown-menu{
+    --bs-dropdown-min-width: 5rem !important;
+    --bs-body-bg: rgb(35, 37, 43) !important; 
+}
