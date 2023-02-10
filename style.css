@@ -36,7 +36,7 @@ body {
 
 .site-links {
     color: rgb(216, 216, 216);
-    background-color:rgb(35, 37, 43);
+    background-color: rgb(35, 37, 43);
     text-decoration: none;
     display: inline-block;
     transition-duration: 0.5s;
@@ -49,12 +49,36 @@ body {
     color: black;
 }
 
-.dropdown-menu{
+.dropdown-menu {
     --bs-dropdown-min-width: 5rem !important;
-    --bs-body-bg: rgb(35, 37, 43) !important; 
+    --bs-body-bg: rgb(35, 37, 43) !important;
 }
 
-.dropdown:hover .dropdown-menu {
+.dropdown:hover>.dropdown-menu {
     display: block;
     margin-top: 0;
+}
+
+.dropdown>.dropdown-toggle:active {
+    /* temporarily disable effect when clicking but later change so that clicking redirects to projects page */
+    pointer-events: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0 !important;
+}
+
+.btn-outline-success {
+    --bs-btn-color: rgb(216, 216, 216) !important; 
+    --bs-btn-border-color: rgb(216, 216, 216) !important; 
+    --bs-btn-active-border-color: #222 !important;
+    --bs-btn-active-color: #222 !important;
+    --bs-btn-hover-bg: white !important;
+    --bs-btn-hover-color: black !important;
+    --bs-btn-hover-border-color: white !important;
+    --bs-btn-active-bg: rgb(172, 148, 129) !important;
 }
