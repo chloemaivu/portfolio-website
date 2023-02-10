@@ -19,6 +19,7 @@
 <body>
     <div class="page">
 
+        <!-- navigation bar -->
         <nav class="navbar navbar-dark bg-dark navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
 
@@ -40,9 +41,12 @@
                             <a class="nav-link site-links dropdown-toggle" data-bs-toggle="dropdown"
                                 href="projects.html" role="button" aria-expanded="false">Projects</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item site-links" href="project1.html">Project 1</a></li>
-                                <li><a class="dropdown-item site-links" href="project2.html">Project 2</a></li>
-                                <li><a class="dropdown-item site-links" href="project3.html">Project 3</a></li>
+                                <li><a class="dropdown-item site-links text-center" href="project1.html">Project 1</a>
+                                </li>
+                                <li><a class="dropdown-item site-links text-center" href="project2.html">Project 2</a>
+                                </li>
+                                <li><a class="dropdown-item site-links text-center" href="project3.html">Project 3</a>
+                                </li>
                             </ul>
                         </li>
 
@@ -54,17 +58,42 @@
 
         <div class="main-content text-center">
             <h1 class="greeting">
-                Contact Me.
+                My Socials.
             </h1>
 
             <div class="introductory-paragraph text-center">
                 <p>These are my socials.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam asperiores inventore natus culpa,
-                    ducimus officiis sed ipsam animi. Amet, magni? Dolores pariatur necessitatibus temporibus similique
-                    corrupti voluptas dicta obcaecati omnis?</p>
-                <p>I will also put a contact form on this page.</p>
+                <p>GitHub image and link here.</p>
+                <p>LinkedIn image and link here.</p>
+            </div>
+
+            <div class="form-area">
+                <h1 class="greeting">
+                    Contact Me.
+                </h1>
+                <p>Send me a message.</p>
+                <div>
+
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                            <input type="email" class="form-control" placeholder="Email address"
+                                aria-label="Email address" aria-describedby="emailContact">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <input type="password" class="form-control" id="message">
+                        </div>
+                        <button class="btn btn-outline-success" type="submit">Submit</button>
+                    </form>
+
+                </div>
+
             </div>
         </div>
+
+
 
         <div class="footer text-center">
             <div class="last-update">Last updated on 10th February 2023</div>
