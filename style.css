@@ -39,7 +39,7 @@ body {
     background-color: rgb(35, 37, 43);
     text-decoration: none;
     display: inline-block;
-    transition-duration: 0.5s;
+    transition-duration: 0.5s ease;
     cursor: pointer;
     font-size: 18px;
 }
@@ -60,7 +60,6 @@ body {
 }
 
 .dropdown>.dropdown-toggle:active {
-    /* temporarily disable effect when clicking but later change so that clicking redirects to projects page */
     pointer-events: none;
 }
 
