@@ -87,9 +87,14 @@ body {
     color: rgb(216, 216, 216) ;
 }
 
+.link:hover {
+    font-weight: 500;
+    color: rgb(172, 148, 129);
+}
+
 .portrait {
     border-radius: 45%;
-    width:300px;
+    width:280px;
     transition: 0.1s linear;
 }
 
@@ -102,6 +107,10 @@ a i {
 }
 
 a:hover i {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
